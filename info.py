@@ -7,7 +7,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '11472991'))
 API_HASH = environ.get('API_HASH', 'c78c50d54baf2173e8b3f75c359c0c72')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7754306060:AAGBIJsYxqYe9vUPKuCsg5t7i5xS786ufWk")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7754306060:AAG49OjbRLXHpSRvf8uR8YDl6NURMaJjXkA")
 
 # Bot settings
 PORT = environ.get("PORT", "8080")
@@ -31,6 +31,6 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://KarthikMovies:KarthikU
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 
 # Shortlink Info
-SHORTLINK = bool(environ.get('SHORTLINK', False)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.shareus.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'hRPS5vvZc0OGOEUQJMJzPiojoVK2')
+SHORTLINK = bool(environ.get('SHORTLINK', True)) # Set True Or False
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkpays.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '8036b78d9b4f2ada3d00877dee7252cfaa359fb2')
